@@ -1,1 +1,22 @@
 .DS_Store
+
+# Xcode user state
+*.xcuserstate
+xcuserdata/
+*.mode1v3
+*.mode2v3
+*.pbxuser
+
+# Build products
+DerivedData/
+build/
+*.ipa
+*.dSYM.zip
+*.xcarchive
+
+# Signing / provisioning
+*.mobileprovision
+*.provisionprofile
+*.cer
+*.p12
+*.key

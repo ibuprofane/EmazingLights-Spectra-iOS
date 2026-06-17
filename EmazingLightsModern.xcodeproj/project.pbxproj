@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00000000000000000000101 /* EmazingLightsModernApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000001 /* EmazingLightsModernApp.swift */; };
+		A00000000000000000000102 /* ProgrammingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000002 /* ProgrammingModels.swift */; };
+		A00000000000000000000103 /* StockProgrammingCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000003 /* StockProgrammingCatalog.swift */; };
+		A00000000000000000000104 /* ProgrammingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000004 /* ProgrammingStore.swift */; };
+		A00000000000000000000105 /* BluetoothConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000005 /* BluetoothConstants.swift */; };
+		A00000000000000000000106 /* BluetoothDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000006 /* BluetoothDevice.swift */; };
+		A00000000000000000000107 /* BLECommandBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000007 /* BLECommandBuilder.swift */; };
+		A00000000000000000000108 /* ProgrammingPayloadBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000008 /* ProgrammingPayloadBuilder.swift */; };
+		A00000000000000000000109 /* BluetoothProgrammingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000009 /* BluetoothProgrammingService.swift */; };
+		A00000000000000000000110 /* ResourceImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000010 /* ResourceImage.swift */; };
+		A00000000000000000000111 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000011 /* ContentView.swift */; };
+		A00000000000000000000112 /* DeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000012 /* DeviceView.swift */; };
+		A00000000000000000000113 /* ProgramLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000013 /* ProgramLibraryView.swift */; };
+		A00000000000000000000114 /* PatternLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000014 /* PatternLibraryView.swift */; };
+		A00000000000000000000115 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000015 /* StatusView.swift */; };
+		A00000000000000000000117 /* ProgrammingImages in Resources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000017 /* ProgrammingImages */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A00000000000000000000001 /* EmazingLightsModernApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmazingLightsModernApp.swift; sourceTree = "<group>"; };
+		A00000000000000000000002 /* ProgrammingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/ProgrammingModels.swift; sourceTree = "<group>"; };
+		A00000000000000000000003 /* StockProgrammingCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catalog/StockProgrammingCatalog.swift; sourceTree = "<group>"; };
+		A00000000000000000000004 /* ProgrammingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store/ProgrammingStore.swift; sourceTree = "<group>"; };
+		A00000000000000000000005 /* BluetoothConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth/BluetoothConstants.swift; sourceTree = "<group>"; };
+		A00000000000000000000006 /* BluetoothDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth/BluetoothDevice.swift; sourceTree = "<group>"; };
+		A00000000000000000000007 /* BLECommandBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth/BLECommandBuilder.swift; sourceTree = "<group>"; };
+		A00000000000000000000008 /* ProgrammingPayloadBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth/ProgrammingPayloadBuilder.swift; sourceTree = "<group>"; };
+		A00000000000000000000009 /* BluetoothProgrammingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth/BluetoothProgrammingService.swift; sourceTree = "<group>"; };
+		A00000000000000000000010 /* ResourceImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/ResourceImage.swift; sourceTree = "<group>"; };
+		A00000000000000000000011 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/ContentView.swift; sourceTree = "<group>"; };
+		A00000000000000000000012 /* DeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/DeviceView.swift; sourceTree = "<group>"; };
+		A00000000000000000000013 /* ProgramLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/ProgramLibraryView.swift; sourceTree = "<group>"; };
+		A00000000000000000000014 /* PatternLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/PatternLibraryView.swift; sourceTree = "<group>"; };
+		A00000000000000000000015 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/StatusView.swift; sourceTree = "<group>"; };
+		A00000000000000000000017 /* ProgrammingImages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ProgrammingImages; sourceTree = "<group>"; };
+		A00000000000000000000018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00000000000000000000019 /* EmazingLightsModern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmazingLightsModern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00000000000000000000201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00000000000000000000301 = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000302 /* EmazingLightsModern */,
+				A00000000000000000000303 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00000000000000000000302 /* EmazingLightsModern */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000001 /* EmazingLightsModernApp.swift */,
+				A00000000000000000000002 /* ProgrammingModels.swift */,
+				A00000000000000000000003 /* StockProgrammingCatalog.swift */,
+				A00000000000000000000004 /* ProgrammingStore.swift */,
+				A00000000000000000000005 /* BluetoothConstants.swift */,
+				A00000000000000000000006 /* BluetoothDevice.swift */,
+				A00000000000000000000007 /* BLECommandBuilder.swift */,
+				A00000000000000000000008 /* ProgrammingPayloadBuilder.swift */,
+				A00000000000000000000009 /* BluetoothProgrammingService.swift */,
+				A00000000000000000000010 /* ResourceImage.swift */,
+				A00000000000000000000011 /* ContentView.swift */,
+				A00000000000000000000012 /* DeviceView.swift */,
+				A00000000000000000000013 /* ProgramLibraryView.swift */,
+				A00000000000000000000014 /* PatternLibraryView.swift */,
+				A00000000000000000000015 /* StatusView.swift */,
+				A00000000000000000000017 /* ProgrammingImages */,
+				A00000000000000000000018 /* Info.plist */,
+			);
+			path = EmazingLightsModern;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000303 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000019 /* EmazingLightsModern.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00000000000000000000401 /* EmazingLightsModern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00000000000000000000702 /* Build configuration list for PBXNativeTarget "EmazingLightsModern" */;
+			buildPhases = (
+				A00000000000000000000202 /* Sources */,
+				A00000000000000000000201 /* Frameworks */,
+				A00000000000000000000203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmazingLightsModern;
+			productName = EmazingLightsModern;
+			productReference = A00000000000000000000019 /* EmazingLightsModern.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00000000000000000000501 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					A00000000000000000000401 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+				};
+			};
+			buildConfigurationList = A00000000000000000000701 /* Build configuration list for PBXProject "EmazingLightsModern" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00000000000000000000301;
+			productRefGroup = A00000000000000000000303 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00000000000000000000401 /* EmazingLightsModern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00000000000000000000203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000117 /* ProgrammingImages in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00000000000000000000202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000101 /* EmazingLightsModernApp.swift in Sources */,
+				A00000000000000000000102 /* ProgrammingModels.swift in Sources */,
+				A00000000000000000000103 /* StockProgrammingCatalog.swift in Sources */,
+				A00000000000000000000104 /* ProgrammingStore.swift in Sources */,
+				A00000000000000000000105 /* BluetoothConstants.swift in Sources */,
+				A00000000000000000000106 /* BluetoothDevice.swift in Sources */,
+				A00000000000000000000107 /* BLECommandBuilder.swift in Sources */,
+				A00000000000000000000108 /* ProgrammingPayloadBuilder.swift in Sources */,
+				A00000000000000000000109 /* BluetoothProgrammingService.swift in Sources */,
+				A00000000000000000000110 /* ResourceImage.swift in Sources */,
+				A00000000000000000000111 /* ContentView.swift in Sources */,
+				A00000000000000000000112 /* DeviceView.swift in Sources */,
+				A00000000000000000000113 /* ProgramLibraryView.swift in Sources */,
+				A00000000000000000000114 /* PatternLibraryView.swift in Sources */,
+				A00000000000000000000115 /* StatusView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A00000000000000000000601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A00000000000000000000602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A00000000000000000000603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = EmazingLightsModern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emazinglights.programmer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A00000000000000000000604 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = EmazingLightsModern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emazinglights.programmer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00000000000000000000701 /* Build configuration list for PBXProject "EmazingLightsModern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000601 /* Debug */,
+				A00000000000000000000602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00000000000000000000702 /* Build configuration list for PBXNativeTarget "EmazingLightsModern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000603 /* Debug */,
+				A00000000000000000000604 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00000000000000000000501 /* Project object */;
+}

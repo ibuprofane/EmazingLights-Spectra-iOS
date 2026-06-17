@@ -36,6 +36,26 @@ struct LEDColor: Codable, Equatable, Hashable, Identifiable {
         )
     }
 
+    var displayColor: Color {
+        fixedColorRef == 0 ? .white : swiftUIColor
+    }
+
+    func displayColor(tint: ColorTint) -> Color {
+        let baseRed = fixedColorRef == 0 ? 255 : red
+        let baseGreen = fixedColorRef == 0 ? 255 : green
+        let baseBlue = fixedColorRef == 0 ? 255 : blue
+        let factor: Double = switch tint {
+        case .high: 1.0
+        case .medium: 0.20
+        case .low: 0.05
+        }
+        return Color(
+            red: Double(baseRed) * factor / 255.0,
+            green: Double(baseGreen) * factor / 255.0,
+            blue: Double(baseBlue) * factor / 255.0
+        )
+    }
+
     func tinted(_ tint: ColorTint) -> LEDColor {
         guard tint != .high else { return self }
         let factor = tint == .medium ? 0.20 : 0.05
@@ -59,6 +79,13 @@ enum ColorTint: String, Codable, CaseIterable, Identifiable {
     case low = "L"
 
     var id: String { rawValue }
+    var next: ColorTint {
+        switch self {
+        case .high: .medium
+        case .medium: .low
+        case .low: .high
+        }
+    }
     var label: String {
         switch self {
         case .high: "High"

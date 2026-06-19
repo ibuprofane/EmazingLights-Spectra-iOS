@@ -12,7 +12,7 @@ This repo includes iOS code for controlling the EmazingLights Spectra Bluetooth 
 - 1x Glove Pouch
 - Instructions
 
-The Smart Hub was central to programming the lights. It included a Bluetooth controller and an LED light that also acts as an IR emitter. The Smart Hub would communicate with the app over Bluetooth to help the user configure light patterns that they could preview on the Smart Hub's light. Once the user had chosen their pattern they could flash it onto the light using the Smart Hub's IR emitter.
+The Smart Hub was central to programming the lights. It included a Bluetooth LE controller and an LED light that also acts as an IR emitter. The Smart Hub would communicate with the app over Bluetooth to help the user configure light patterns that they could preview on the Smart Hub's light. Once the user had chosen their pattern they could flash it onto the light using the Smart Hub's IR emitter.
 
 ## Legacy Code
 
